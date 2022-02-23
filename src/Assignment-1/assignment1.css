@@ -1,7 +1,40 @@
 /* Our CSS file. */
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+#cointainer {
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+}
+.top {
+  display: flex;
+  background-color: bisque;
+}
+.top_left {
+  height: 50%;
+  width: 50%;
+}
 
+.top_right {
+  height: 50%;
+  width: 50%;
+}
+.bottom {
+  background-color: bisque;
+  display: flex;
+}
+.bottom_left {
+  height: 50%;
+  width: 50%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+.bottom_right {
+  height: 50%;
+  width: 50%;
 }
