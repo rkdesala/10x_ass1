@@ -1,7 +1,110 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+.head_container {
+  position: relative;
+  font-size: large;
+  font-weight: bolder;
+  height: 100px;
+  border: 10px solid slateblue;
+  background-color: rgba(64, 150, 231, 0.39);
+}
+.head_container h1 {
+  padding: 0;
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+  font-family: sans-serif;
+}
+nav {
+  text-align: center;
+  word-spacing: 50px;
+}
+.head_container nav a:hover {
+  color: white;
+  background-color: blue;
+  display: flex;
+}
+.head_container form {
+  position: absolute;
+  left: 1100px;
+  bottom: 40px;
+  right: 25px;
+  height: 23px;
+  border: 3px bisque solid;
+  width: 150px;
+}
+.header_image {
+  position: absolute;
+  bottom: 50px;
+  left: 5px;
+}
+.header_aside {
+  position: relative;
+  top: 20px;
+  border: 5px solid blue;
+  width: 150px;
+  height: 500px;
+  word-spacing: 25px;
+}
+.header_aside ul {
+  font-size: x-large;
+  font-weight: bolder;
+  line-height: 45px;
+  word-spacing: 25px;
+}
+.footer {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 700px;
+  border: 5px solid blue;
+  bottom: 0;
+  background-color: rgb(0, 162, 255);
+}
+.footer p {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.section_middle {
+  border: 5px solid blue;
+  display: block;
+  width: 65%;
+  height: 500px;
+  top: 150px;
+  position: absolute;
+  left: 200px;
+  justify-content: center;
+}
+.section_middle img {
+  width: 250px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px 10px;
+}
+.header_aside_right {
+  position: absolute;
+  top: 150px;
+  border: 5px solid blue;
+  width: 150px;
+  height: 500px;
+  left: 1150px;
+  word-spacing: 25px;
+  text-align: left;
+}
+.header_aside_right ul {
+  font-size: x-large;
+  font-weight: bolder;
+  line-height: 45px;
+}
+.image1_row {
+  display: flex;
+  justify-items: center;
+  padding: 10px;
 }
